@@ -1,0 +1,14 @@
+.logo-container {
+    width: 200px;
+    /* Adjust width as needed */
+    height: 100px;
+    /* Adjust height as needed */
+    background-image: url('/assets/image/logo.png');
+    /* Replace 'path/to/your/logo.png' with the actual path to your logo image file */
+    background-size: contain;
+    /* Adjust background size as needed */
+    background-repeat: no-repeat;
+    /* Prevent repeating the image */
+    background-position: center;
+    /* Center the image */
+}

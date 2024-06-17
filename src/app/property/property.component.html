@@ -1,0 +1,280 @@
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>home</title>
+    <link rel="stylesheet" href="property.component.css" />
+    <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css  " /> -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap"
+        rel="stylesheet" />
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+</head>
+<style></style>
+
+<body class="text-dark">
+    <!-- <div class="header"> -->
+    <div class="container-xxl bg-white p-0"></div>
+    <!-- Navbar Start -->
+    <div class="container-fluid nav-bar bg-transparent">
+        <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
+            <a href="/" class="navbar-brand d-flex align-items-center text-center">
+                <div class="me-2">
+                    <div routerLink="/" class="logo-container"></div>
+                    <!-- <img class="img-fluid" src="" alt="Icon" style="width: 30px; height: 30px;"> -->
+                </div>
+                <!-- <h1 class="m-0 text-primary">PropertEase</h1> -->
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto">
+                    <a href="index.html" routerLink="/" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" href="/about" class="nav-item nav-link">About</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" href="/property"
+                            data-bs-toggle="dropdown">Property</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="/appointmentdatails" class="dropdown-item">Property Type</a>
+                            <a href="/agentdashboard" class="dropdown-item">Property Agent</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Service</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="/property" class="dropdown-item">Buy</a>
+                            <a href="/agentsignin" class="dropdown-item">Sell</a>
+                        </div>
+                    </div>
+                    <!-- <a href="" class="nav-item nav-link">Contact</a> -->
+                </div>
+                <a href="/custsignin" class="btn btn-primary px-3 d-none d-lg-flex">Sign-in</a>
+            </div>
+        </nav>
+    </div>
+    <!-- </div> -->
+
+    <!-- Property List Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-3 gx-7 align-items-end">
+                <div class="col-lg-6">
+                    <div class="text-start mx-auto mb-5 wow slideInLeft" data-wow-delay="0.1s">
+                        <h1 class="mb-3">Property Listing</h1>
+                        <p>In the realm of property listing, meticulous attention to detail and comprehensive information are paramount. Each listing serves as a digital storefront, beckoning potential buyers or renters with its imagery and descriptions..</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-start text-lg-end wow slideInRight" data-wow-delay="0.1s">
+                    <ul class="nav nav-pills d-inline-flex justify-content-end mb-5">
+                        <li class="nav-item me-2">
+                            <a class="btn btn-outline-primary active" data-bs-toggle="pill" href="#tab-1">Featured</a>
+                        </li>
+                        <!-- <li class="nav-item me-2">
+                                  <a class="btn btn-outline-primary" data-bs-toggle="pill" href="#tab-2">For Sell</a>
+                              </li>
+                              <li class="nav-item me-0">
+                                  <a class="btn btn-outline-primary" data-bs-toggle="pill" href="#tab-3">For Sell</a>
+                              </li> -->
+                    </ul>
+                </div>
+            </div>
+            <div class="tab-content">
+                <div id="tab-1" class="tab-pane fade show p-0 active">
+                    <div class="row g-4">
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="property-item rounded overflow-hidden">
+                                <div class="position-relative overflow-hidden">
+                                    <a href="">
+                                        <img class="img-fluid" alt="">
+                                        <div class="img-fluid image1"></div>
+                                    </a>
+                                    <div
+                                        class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        For Sell</div>
+                                    <div
+                                        class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                        Appartment</div>
+                                </div>
+                                <div class="p-4 pb-0">
+                                    <h5 class="text-primary mb-3">₹21,26,530</h5>
+                                    <a class="d-block h5 mb-2" href="">Swagat House</a>
+                                    <p><i class="fa fa-map-marker-alt text-primary me-2"></i>plot no.28,Ram nagar,opposite to Munna Pan Shop,Dharampeth,Nagpur
+                                    </p>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="flex-fill text-center border-end py-2"><i
+                                            class="fa fa-ruler-combined text-primary me-2"></i>1700 Sqft</small>
+                                    <small class="flex-fill text-center border-end py-2"><i
+                                            class="fa fa-bed text-primary me-2"></i>6 Bed</small>
+                                    <small class="flex-fill text-center py-2"><i
+                                            class="fa fa-bath text-primary me-2"></i>8 Bath</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="property-item rounded overflow-hidden">
+                                <div class="position-relative overflow-hidden">
+                                    <a href=""><img class="img-fluid" alt="">
+                                        <div class="img-fluid image2"></div>
+                                    </a>
+                                    <div
+                                        class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        For Sell</div>
+                                    <div
+                                        class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                        Villa</div>
+                                </div>
+                                <div class="p-4 pb-0">
+                                    <h5 class="text-primary mb-3">₹38,23,250</h5>
+                                    <a class="d-block h5 mb-2" href="">Patil Villa</a>
+                                    <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Plot no.56,shiva nagar,Civil Lines,Nagpur
+                                    </p>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="flex-fill text-center border-end py-2"><i
+                                            class="fa fa-ruler-combined text-primary me-2"></i>1500 Sqft</small>
+                                    <small class="flex-fill text-center border-end py-2"><i
+                                            class="fa fa-bed text-primary me-2"></i>4 Bed</small>
+                                    <small class="flex-fill text-center py-2"><i
+                                            class="fa fa-bath text-primary me-2"></i>5 Bath</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="property-item rounded overflow-hidden">
+                                <div class="position-relative overflow-hidden">
+                                    <a href=""><img class="img-fluid" alt="">
+                                        <div class="img-fluid image3"></div>
+                                    </a>
+                                    <div
+                                        class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        For Sell</div>
+                                    <div
+                                        class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                        House</div>
+                                </div>
+                                <div class="p-4 pb-0">
+                                    <h5 class="text-primary mb-3">₹19,36,222</h5>
+                                    <a class="d-block h5 mb-2" href="">Shradhha House</a>
+                                    <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Plot no.12 surya nagar,trimurti nagar,Nagpur
+                                    </p>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="flex-fill text-center border-end py-2"><i
+                                            class="fa fa-ruler-combined text-primary me-2"></i>2000 Sqft</small>
+                                    <small class="flex-fill text-center border-end py-2"><i
+                                            class="fa fa-bed text-primary me-2"></i>4 Bed</small>
+                                    <small class="flex-fill text-center py-2"><i
+                                            class="fa fa-bath text-primary me-2"></i>4 Bath</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="property-item rounded overflow-hidden">
+                                <div class="position-relative overflow-hidden">
+                                    <a href=""><img class="img-fluid" alt="">
+                                        <div class="img-fluid image4"></div>
+                                    </a>
+                                    <div
+                                        class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        For Sell</div>
+                                    <div
+                                        class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                        Building</div>
+                                </div>
+                                <div class="p-4 pb-0">
+                                    <h5 class="text-primary mb-3">₹16,12,345</h5>
+                                    <a class="d-block h5 mb-2" href="">Swarg</a>
+                                    <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Plot no.36,ekatmata nagar,Jaitala Road,Nagpur
+                                    </p>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="flex-fill text-center border-end py-2"><i
+                                            class="fa fa-ruler-combined text-primary me-2"></i>2500 Sqft</small>
+                                    <small class="flex-fill text-center border-end py-2"><i
+                                            class="fa fa-bed text-primary me-2"></i>6 Bed</small>
+                                    <small class="flex-fill text-center py-2"><i
+                                            class="fa fa-bath text-primary me-2"></i>9 Bath</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="property-item rounded overflow-hidden">
+                                <div class="position-relative overflow-hidden">
+                                    <a href=""><img class="img-fluid" alt="">
+                                        <div class="img-fluid image5"></div>
+                                    </a>
+                                    <div
+                                        class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        For Sell</div>
+                                    <div
+                                        class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                        Home</div>
+                                </div>
+                                <div class="p-4 pb-0">
+                                    <h5 class="text-primary mb-3">₹22,72,345</h5>
+                                    <a class="d-block h5 mb-2" href="">Milti House For Sell</a>
+                                    <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Near Dongare nagar,near Chunni naka,jaitala Nagpur
+                                    </p>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="flex-fill text-center border-end py-2"><i
+                                            class="fa fa-ruler-combined text-primary me-2"></i>2300 Sqft</small>
+                                    <small class="flex-fill text-center border-end py-2"><i
+                                            class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                                    <small class="flex-fill text-center py-2"><i
+                                            class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="property-item rounded overflow-hidden">
+                                <div class="position-relative overflow-hidden">
+                                    <a href=""><img class="img-fluid" alt="">
+                                        <div class="img-fluid image6"></div>
+                                    </a>
+                                    <div
+                                        class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        For Sell</div>
+                                    <div
+                                        class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                        Shop</div>
+                                </div>
+                                <div class="p-4 pb-0">
+                                    <h5 class="text-primary mb-3">₹24,12,345</h5>
+                                    <a class="d-block h5 mb-2" href="">Matoshree</a>
+                                    <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Plot no.35,Shiv nagar,Pratap nagar,Nagpur
+                                    </p>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="flex-fill text-center border-end py-2"><i
+                                            class="fa fa-ruler-combined text-primary me-2"></i>3000 Sqft</small>
+                                    <small class="flex-fill text-center border-end py-2"><i
+                                            class="fa fa-bed text-primary me-2"></i>5 Bed</small>
+                                    <small class="flex-fill text-center py-2"><i
+                                            class="fa fa-bath text-primary me-2"></i>6 Bath</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.1s">
+                            <a class="btn btn-primary py-3 px-5" href="">Browse More Property</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Property List End -->
+
+
+
+</body>
